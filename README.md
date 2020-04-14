@@ -1,2 +1,2 @@
-# List os usefull custom react hooks
+# List of usefull custom react hooks
 
