@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card } from '../Elements';
 import black from '../black.png';
-import { useHover } from '../hooks/useHover';
+import { useHover } from '../hooks';
 
 
 const Hover = () => {
