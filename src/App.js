@@ -11,7 +11,7 @@ import Inc from './components/Inc';
 import Mount from './components/Mount';
 import Hover from './components/Hover';
 import { PageWrapper } from "./state";
-import Nav from './components/Nav';
+import NavWrapper from './components/Nav';
 import Cookie from './components/Cookie';
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
         <Menu />
         <h1>Header</h1>
         </Header>
-        <Nav />
+        <NavWrapper />
         <Container>
           <h2>Super Cool</h2>
           <Toggle />
