@@ -13,6 +13,7 @@ import Hover from './components/Hover';
 import { PageWrapper } from "./state";
 import NavWrapper from './components/Nav';
 import Cookie from './components/Cookie';
+import Script from './components/Script';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <NavWrapper />
         <Container>
           <h2>Super Cool</h2>
+          <Script />
           <Toggle />
           <Inc />
           <Mount />
