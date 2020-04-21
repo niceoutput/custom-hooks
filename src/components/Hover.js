@@ -1,18 +1,22 @@
 import React from 'react';
 import { Card } from '../Elements';
 import black from '../black.png';
-import { useHover, useWindowWidth } from '../hooks';
+import { useHover, useWindowWidth, useMeasure } from '../hooks';
 
 
 const Hover = () => {
   const [isHovered, bind] = useHover();
   const width = useWindowWidth();
+  const [{ ref }, bounds] = useMeasure();
+
+  console.log("bounds", bounds)
 
   if (width < 400) return null;
 
     return (
       <div>
         <Card
+          ref={ref}
           {...bind}
           style={{ background: isHovered ? "var(--black)" : "var(--purp)" }}
         >
