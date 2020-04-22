@@ -15,6 +15,7 @@ import NavWrapper from './components/Nav';
 import Cookie from './components/Cookie';
 import Script from './components/Script';
 import Local from './components/Local';
+import Theme from './components/Theme';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <NavWrapper />
         <Container>
           <h2>Super Cool</h2>
+          <Theme />
           <Script />
           <Toggle />
           <Inc />
