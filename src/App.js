@@ -14,6 +14,7 @@ import { PageWrapper } from "./state";
 import NavWrapper from './components/Nav';
 import Cookie from './components/Cookie';
 import Script from './components/Script';
+import Local from './components/Local';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
           <Mount />
           <Cookie />
           <Hover />
+          <Local />
           <CardGrid>
             <Card style={{ background: "var(--purp)" }}>
               <h3>Some card</h3>
